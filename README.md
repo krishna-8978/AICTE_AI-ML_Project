@@ -77,3 +77,27 @@ You can install all necessary dependencies using the following command after cre
 
 ```bash
 pip install -r requirements.txt
+## 4. Environment Setup
+
+### A. Environment Variables (Critical for Chatbot)
+
+To run the Generative AI Chatbot section, you must set your API key as an environment variable.
+
+1.  **Get Key:** Obtain a Gemini API Key from Google AI Studio.
+2.  **Set Variable:** Set the key as an environment variable named `GEMINI_API_KEY`.
+
+| Operating System | Command (Use in Terminal/PowerShell) |
+| :--- | :--- |
+| **macOS/Linux** | `export GEMINI_API_KEY="YOUR_KEY_HERE"` |
+| **Windows (PowerShell)** | `$env:GEMINI_API_KEY="YOUR_KEY_HERE"` |
+
+### B. Running the Application
+
+1.  **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+2.  **Run the Streamlit App:**
+    ```bash
+    python -m streamlit run app.py
+    ``
