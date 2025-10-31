@@ -77,7 +77,7 @@ You can install all necessary dependencies using the following command after cre
 
 ```bash
 pip install -r requirements.txt
-
+``
 ---
 
 ## 4. Environment Setup
