@@ -77,9 +77,7 @@ You can install all necessary dependencies using the following command after cre
 
 ```bash
 pip install -r requirements.txt
-``
 ---
-
 ## 4. Environment Setup
 
 ### A. Environment Variables (Critical for Chatbot)
@@ -103,4 +101,5 @@ To run the Generative AI Chatbot section, you must set your API key as an enviro
 2.  **Run the Streamlit App:**
     ```bash
     python -m streamlit run app.py
-    ``
+    ``` requirements.txt
+    ```
