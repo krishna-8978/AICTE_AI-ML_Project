@@ -1,0 +1,14 @@
+# Data Handling and Analysis
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+
+# Deployment and Generative AI (Planned for Week 2)
+streamlit
+google-genai # For using the Gemini API
